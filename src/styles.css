@@ -3,3 +3,29 @@
   box-sizing:border-box;
   margin:0;
 }
+.link {
+  text-decoration: none;
+  font-size:18px;
+}
+
+.app_first__nav a:active {
+  color:#ffcf27 !important;
+}
+.link:hover{
+  opacity:0.6;
+}
+.app_first__nav a{
+color:#fff;
+}
+.app_second__nav a{
+  color:#000;
+}
+.app_second__nav a:active{
+border-bottom: 3px solid #000;
+color:#5C0426
+}
+.app_first__nav__deliver a{
+   font-size:32px;
+   font-weight:bold;
+   font-family:tahoma;
+ }
