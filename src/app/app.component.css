@@ -10,16 +10,54 @@
   background: #5C0426;
   width: 100%;
   height: 92px;
+  position:fixed;
 
 }
+.app_second__nav {
+  display:flex;
+  align-items: center;
+width:100%;
+height:85px;
+margin-top:92px;
+ }
 
 .app_first__nav ul {
-  margin-left: 200px;
+  margin-left: 300px;
+}
+.app_second__nav ul{
+  margin-left:300px;
 }
 
-.app_first__nav li {
+.app_first__nav li, .app_second__nav li {
   display: inline-block;
   list-style: none;
   margin-left: 30px;
 
+}
+ 
+ .app_first__nav__deliver i{
+   color:#fff;
+   margin-right:5px;
+ }
+
+.app_second__nav .cart{
+  margin-left:400px;
+}
+.app_delivery{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+background:url("../assets/maskgroup.png");
+background-size:contain;
+background-repeat:no-repeat;
+width:100%;
+height:698px;
+
+}
+.app_delivery h3{
+color:#420000;
+height:154px;
+width:605px;
+margin-top:223px;
+font-size:50px;
 }
