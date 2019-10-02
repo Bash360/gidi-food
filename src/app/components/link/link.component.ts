@@ -9,6 +9,7 @@ export class LinkComponent implements OnInit {
   text:string;
   @Input() href:string;
   @Input() placeholder:string;
+  @Input() icon:string;
   constructor() { }
   ngOnInit() {
   
