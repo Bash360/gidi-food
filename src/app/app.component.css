@@ -58,6 +58,24 @@ height:698px;
 color:#420000;
 height:154px;
 width:605px;
-margin-top:223px;
+margin-top:200px;
 font-size:50px;
+}
+.app_restaurant_info{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-items:center;
+}
+.app_restaurant_info___img{
+  display:inline-block;
+  width:96px;
+  height:96px;
+}
+.app_restaurant_info__count p{
+  display:inline-block;
+  margin-left:25px;
+  width:103px;
+  height:48px;
+  font-size:18px;
 }
