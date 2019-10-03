@@ -1,0 +1,28 @@
+.restaurant{
+  display:flex;
+  flex-direction:column;
+  border:3px #006494C4 solid;
+  width:200px;
+  margin-left:10px;
+}
+.restaurant img{
+  display:inline-block;
+  width:100%;
+  height:150px;
+}
+.restaurant p,.restaurant__rating{
+padding-left:20px;
+}
+.restaurant__rating{
+  margin-bottom:10px;
+}
+.restaurant__rating i{
+color:#FFCF27;
+}
+.restaurant__rating .black{
+  color:#000;
+}
+.restaurant__rating span{
+  margin-left:5px;
+}
+
