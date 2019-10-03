@@ -1,0 +1,31 @@
+.feedback_card{
+display:flex;
+flex-direction:column;
+width:400px;
+height:485px;
+margin-left:20px;
+}
+
+.feedback_card p{
+  width:100%;
+  height:220px;
+  text-align:center;
+ 
+  overflow:hidden;
+  text-overflow: ellipsis;
+  wodrd-spacing:10px;
+}
+.feedback_card__customer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.feedback_card__image{
+  display:inline-block;
+  width:160px;
+  height:160px;
+  border-radius:100%;
+  margin-top:5px;
+  margin-bottom:5px;
+
+}
