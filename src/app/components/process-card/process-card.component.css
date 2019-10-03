@@ -1,0 +1,25 @@
+.process{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.process div{
+  background:#fff;
+  height:156px;
+  width:156px;
+  border-radius:100px;
+}
+.process__instruction{
+  margin-top:20px;
+  font-size:32px;
+  text-align:center;
+}
+.process__details{
+   width:350px;
+   height:148px;
+   font-size:18px;
+   margin-top:20px;
+ 
+   text-align:center;
+}
