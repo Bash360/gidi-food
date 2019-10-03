@@ -50,7 +50,7 @@
 <p class="app_recommended_restaurants__title">Recommended Restaurants <app-link href="#" placeholder="View All Restaurants"></app-link></p>
 <div class="app_recommended_restaurants">
 
-<app-link href="#" icon='fas fa-chevron-circle-left'></app-link>
+<button class="pagination_arrow left"><i class='fas fa-angle-left'></i></button>
 <div class="app_recommended_restaurants__cards">
 <app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
 <app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
@@ -58,9 +58,53 @@
 <app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
 
 </div>
-<app-link href="#" icon='fas fa-chevron-circle-right'></app-link>
+<button class="pagination_arrow right"><i class='fas fa-angle-right'></i></button>
 </div>
-<div class="app_order_process">
-<h3>How It Works</h3>
+<div class="app_order_processes">
+<h1>How It Works</h1>
+<div class="app_order_steps">
+<app-process-card instruction="Select Your Restaurant" detailedInstruction={{processDetail}}></app-process-card>
+<app-process-card instruction="Select Your Desired Meal" detailedInstruction={{processDetail}}></app-process-card>
+<app-process-card instruction="Get It Delivered Fast" detailedInstruction={{processDetail}}></app-process-card>
+</div>
+</div>
+<div class="app_popular_restaurants">
+<h4>Popular Restaurants</h4>
+<div class="app_popular_restaurants_">
+
+<button class="pagination_arrow left"><i class='fas fa-angle-left'></i></button>
+<div class="app_popular_restaurants__cards">
+<app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
+<app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
+<app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
+<app-restuarant-card name="Jollof Etcetera" src="../assets/jollof.jpg"></app-restuarant-card>
+
+</div>
+<button class="pagination_arrow right"><i class='fas fa-angle-right'></i></button>
+</div>
+</div>
+<div class="gidi_app">
+<img class="gidi_app__mobile_app" src="../assets/mobile-app.png" alt="mobile app" />
+<div class="gidi_app__info">
+<app-link href="#" placeholder="Download Our App"></app-link>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas feugiat felis. Mauris lobortis nisl nec mi convallis finibus. Nulla facilisi. Donec urna orci, placerat vestibulum sapien eget, laoreet egestas elit.</p>
+<a href="#"><img src="../assets/google-play-badge-en.png" alt="playstore logo" /></a>
+</div>
+<div class="gidi_app_detail">
+<img class="gidi_app__burger" src="../assets/burger.png" alt="burger" />
+</div>
+</div>
+<div class="app_feedback">
+<h6>What Users Are Saying About BoxIt</h6>
+<div class="app_feedback_cards">
+<app-feedback feedback={{feedback}} customerName="Customer Name"></app-feedback>
+<app-feedback feedback={{feedback}} customerName="Customer Name"></app-feedback>
+</div>
+</div>
+<div class="app_footer">
+<div class="app_footer__deliver">
+<i class="fas fa-truck" style="font-size:50px" ></i>
+<p>Deliver</p>
+</div>
 </div>
 </div>
