@@ -215,12 +215,19 @@ height:100%;
   justify-content:center;
   margin-top:20px;
 }
-.app_footer{
+.app_footer_main{
+  display:flex;
    width:100%;
   height:670px;
-  backround:#121212;
+  background:#121212;
   color:#fff;
+  align-items:center;
+  justify-content:center;
+
  
+}
+.app_footer__deliver{
+
 }
 .app_footer__deliver i{
   color:#fff;
@@ -228,4 +235,9 @@ height:100%;
 .app_footer__deliver p{
 font-size:53px;
 font-weight:bold;
+}
+.app_footer_sub{
+  width:100%;
+  height:140px;
+  background:#000;
 }
