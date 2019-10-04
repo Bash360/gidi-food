@@ -10,6 +10,9 @@
 body {
  font-family: 'Montserrat', sans-serif;
 }
+.roboto{
+  font-family: 'Roboto Slab', serif;
+}
 
 .link {
   text-decoration: none;
