@@ -14,7 +14,7 @@
 .link:hover{
   opacity:0.6;
 }
-.app_first__nav a{
+.app_first__nav a,.app_footer__first_links a,.app_footer__second_links a, .app_footer_sub a{
 color:#fff;
 }
 .app_second__nav a{
@@ -29,3 +29,19 @@ color:#5C0426
    font-weight:bold;
    font-family:tahoma;
  }
+ .app_recommended_restaurants__title a{
+   color:#5C0426;
+    margin-left:39px;
+ }
+  .app_recommended_restaurants__title:first-child {
+    font-weight:bold;
+  }
+ .gidi_app a{
+   color:#fff;
+   font-size:50px;
+ }
+.app_footer_sub a{
+  margin-right:30px;
+}
+ 
+ 

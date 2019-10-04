@@ -58,6 +58,206 @@ height:698px;
 color:#420000;
 height:154px;
 width:605px;
-margin-top:223px;
+margin-top:200px;
 font-size:50px;
+}
+.app_restaurant_infos{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  justify-content:center;
+  margin-bottom:60px;
+
+}
+.app_restaurant_info{
+margin-left:48px;
+
+}
+.app_restaurant_info___img{
+  display:inline-block;
+  width:96px;
+  height:96px;
+}
+.app_restaurant_info p{
+  display:inline-block;
+  margin-left:25px;
+  width:103px;
+  height:48px;
+  font-size:18px;
+}
+.app_restaurant_info__deliveries{
+  width:137px;
+}
+.app_restaurant_info__registered{
+width:187px;
+}
+.app_recommended_restaurants,.app_popular_restaurants_{
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+}
+
+.app_recommended_restaurants__title{
+  margin-bottom:30px;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.app_recommended_restaurants__cards,.app_popular_restaurants__cards{
+  display:flex;
+  align-content:center;
+}
+ .pagination_arrow{
+     color:#fff;
+  font-size:20px;
+  height:66px;
+  width:30px;
+  background:#5C0426;
+  outline:none;
+ }
+  .pagination_arrow:hover{
+    opacity:0.7;
+  }
+
+ .pagination_arrow i{
+    color:#fff;
+ }
+
+ .left{
+    border-bottom-left-radius:100px;
+   border-top-left-radius:100px;
+ }
+ .right{
+   margin-left:10px;
+  border-bottom-right-radius:100px;
+   border-top-right-radius:100px; 
+ }
+.app_order_processes{
+  height:589px;
+  margin-top:150px;
+  background:#5C0426;
+  color:#fff;
+
+}
+.app_order_steps{
+  display:flex;
+  justify-content:center;
+}
+.app_order_processes h1{
+  text-align:center;
+  margin-top:80px;
+  margin-bottom:20px;
+}
+.app_popular_restaurants{
+color:#000;
+}
+.app_popular_restaurants h4{
+  font-size:25px;
+  text-align:center;
+  margin-top:60px;
+  margin-bottom:30px;
+}
+.gidi_app{
+  display:flex;
+  margin-top:100px;
+  background:#000;
+  width:100%;
+  height:500px;
+  align-items:center;
+  color:#fff;
+}
+.gidi_app__mobile_app{
+  display:inline-block;
+  margin-left:150px;
+  width:20%;
+  height:100%;
+}
+.gidi_app__info{
+  margin-left:30px;
+
+}
+.gidi_app__info p{
+  width:620px;
+  height:120px;
+  margin-top:10px;
+  white-space:pre;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  wodrd-spacing:10px;
+}
+.gidi_app__info img{
+  display:inline-block;
+  width:270px;
+  height:80px;
+}
+.gidi_app_detail{
+width:100%;
+height:100%;
+}
+.gidi_app__burger{
+  display:inline-block;
+  width:100%;
+  height:100%;
+}
+.app_feedback{
+  height:535px;
+  width:100%;
+}
+.app_feedback h6{
+  text-align:center;
+  font-size:30px;
+  color:#5C0426;
+  margin-top:100px;
+}
+.app_feedback_cards{
+  display:flex;
+  justify-content:center;
+  margin-top:20px;
+}
+.app_footer_main{
+  display:flex;
+   width:100%;
+  height:670px;
+  background:#121212;
+  color:#fff;
+  align-items:center;
+  justify-content:center;
+
+ 
+}
+.app_footer__deliver{
+
+}
+.app_footer__deliver i{
+  color:#fff;
+}
+.app_footer__deliver p{
+font-size:53px;
+font-weight:bold;
+}
+.app_footer_sub{
+  width:100%;
+  height:140px;
+  background:#000;
+}
+.app_footer__first_links,.app_footer__second_links {
+  display:flex;
+  flex-direction:column;
+  margin-left:60px;
+}
+ .playstore{
+  display:inline-block;
+  margin-left:70px;
+}
+.app_footer_sub{
+  display:flex;
+  color:#fff;
+  justify-content:flex-end;
+  align-items:center;
+}
+.app_footer_sub span{
+  margin-left:10px;
+  margin-right:10px;
+  padding:10px;
 }
