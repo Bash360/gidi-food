@@ -30,7 +30,11 @@
 <div class="app_delivery">
 <h3>Food Delivery Directly To Your Doorstep</h3>
 <form (submit)="handleSubmit($event)">
-
+<div class="select">
+<app-select [options]="city"></app-select>
+<app-select [options]="area"></app-select>
+<button class="app_delivery__submit" type="submit">Find Restaurants</button>
+</div>
 </form>
 </div>
 <div class="app_restaurant_infos">
