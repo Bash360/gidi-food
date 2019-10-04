@@ -268,7 +268,8 @@ font-weight:bold;
   padding-right:60px;
 }
 .app_footer_sub span{
-  padding:100px;
+  padding-right:100px;
+   padding-left:100px;
 }
 .app_delivery__submit{
   width:200px;
