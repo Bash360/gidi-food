@@ -6,6 +6,7 @@ import { LinkComponent } from './components/link/link.component';
 import { RestuarantCardComponent } from './components/restuarant-card/restuarant-card.component';
 import { ProcessCardComponent } from './components/process-card/process-card.component';
 import { FeedbackComponent } from './components/feedback/feedback.component';
+import { SelectComponent } from './components/select/select.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { FeedbackComponent } from './components/feedback/feedback.component';
     LinkComponent,
     RestuarantCardComponent,
     ProcessCardComponent,
-    FeedbackComponent
+    FeedbackComponent,
+    SelectComponent
   ],
   imports: [
     BrowserModule
