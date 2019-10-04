@@ -1,47 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
-*{
-  box-sizing:border-box;
-  margin:0;
-}
-.link {
-  text-decoration: none;
-  font-size:18px;
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* { 
+  box-sizing: border-box;
+  margin: 0;
 }
 
+body {
+ font-family: 'Montserrat', sans-serif;
+}
+.roboto{
+  font-family: 'Roboto Slab', serif;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
 .app_first__nav a:active {
-  color:#ffcf27 !important;
+  color: #ffcf27 !important;
 }
-.link:hover{
-  opacity:0.6;
+
+.link:hover {
+  opacity: 0.6;
 }
-.app_first__nav a,.app_footer__first_links a,.app_footer__second_links a, .app_footer_sub a{
-color:#fff;
+
+.app_first__nav a,
+.app_footer__first_links a,
+.app_footer__second_links a,
+.app_footer_sub a {
+  color: #fff;
 }
-.app_second__nav a{
-  color:#000;
+
+.app_second__nav a {
+  color: #000;
 }
-.app_second__nav a:active{
-border-bottom: 3px solid #000;
-color:#5C0426
+
+.app_second__nav a:active {
+  border-bottom: 3px solid #000;
+  color: #5C0426
 }
-.app_first__nav__deliver a{
-   font-size:32px;
-   font-weight:bold;
-   font-family:tahoma;
- }
- .app_recommended_restaurants__title a{
-   color:#5C0426;
-    margin-left:39px;
- }
-  .app_recommended_restaurants__title:first-child {
-    font-weight:bold;
-  }
- .gidi_app a{
-   color:#fff;
-   font-size:50px;
- }
-.app_footer_sub a{
-  margin-right:30px;
+
+.app_first__nav__deliver a {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: tahoma;
 }
- 
- 
+
+.app_recommended_restaurants__title a {
+  color: #5C0426;
+  margin-left: 39px;
+}
+
+.app_recommended_restaurants__title:first-child {
+  font-weight: bold;
+}
+
+.gidi_app a {
+  color: #fff;
+  font-size: 50px;
+  font-family: tahoma;
+}
+
+.app_footer_sub a {
+  margin-right: 30px;
+}
