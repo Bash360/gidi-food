@@ -25,7 +25,14 @@ export class AppComponent {
   Praesent in tortor nisl. Maecenas nulla eros, vulputate sit amet consequat dignissim, finibus in dolor. Fusce sed lectus suscipit est ultricies ullamcorper varius 
   in turpis. Sed tincidunt, velit vitae vestibulum porta, enim nunc vulputate est, quis egestas mauris mauris sed quam. 
   Mauris dapibus enim non nisl efficitur commodo. Pellentesque cursus a purus quis hendrerit. Mauris pharetra lacinia auctor.`;
+  city :Object[]=[{name:"Select City"},{name:"Epe",value:"epe"},{name:"Ikeja",value:"ikeja"},{name:"Ikorodu",value:"ikorodu"}
+  ,{name:"Lekki",value:"lekki"},{name:"Mushin",value:"mushin"}];
+  area:Object[]=[{name:"Select Area",value:""},
+    {name:"Alimosho",value:"alimosho"},{name:"Ajeromi-Ifelodun",value:"ajeromi ifelodun"},
+  {name:"Kofose",value:"kofose"},{name:"Mushin",value:"mushin"},{name:"Ojo",value:"ojo"},{name:"Eti-Osa",value:"eti osa"}
+  ];
   handleSubmit(event):void{
   event.preventdefault();
   }
 }
+
