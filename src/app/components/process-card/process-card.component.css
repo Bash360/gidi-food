@@ -12,8 +12,9 @@
 }
 .process__instruction{
   margin-top:20px;
-  font-size:32px;
+  font-size:25px;
   text-align:center;
+  margin-right:20px;
 }
 .process__details{
    width:350px;
